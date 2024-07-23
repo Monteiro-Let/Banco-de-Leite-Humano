@@ -1,0 +1,39 @@
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretórios do sistema
+.DS_Store
+Thumbs.db
+
+# Dependências do Node.js
+node_modules/
+
+# Pastas de builds
+dist/
+build/
+
+# Ambientes
+.env
+
+# Configurações de IDE
+.vscode/
+.idea/
+
+# Arquivos de cache
+*.cache
+*.temp
+
+# Arquivos de sistema operacional
+._*
+.Spotlight-V100
+.Trashes
+Desktop.ini
+
+# Arquivos de lock
+package-lock.json
+yarn.lock
