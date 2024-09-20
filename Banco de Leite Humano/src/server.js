@@ -3,7 +3,7 @@ import { bankRoutes  } from "./routes/bank.routes.js";
 
 
 const app = express()
-const port = 4000
+const port = 4002
 
 app.use(express.json());
 app.use(bankRoutes);
